@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="円形の襖をモチーフにした若井襖店ロゴ">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9f6ed"/>
+      <stop offset="1" stop-color="#ece7db"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2a4a"/>
+      <stop offset="1" stop-color="#1f3f68"/>
+    </linearGradient>
+    <clipPath id="discClip">
+      <circle cx="64" cy="58" r="40"/>
+    </clipPath>
+  </defs>
+
+  <rect width="128" height="128" fill="none"/>
+
+  <circle cx="64" cy="58" r="40" fill="url(#paper)"/>
+
+  <g clip-path="url(#discClip)">
+    <rect x="24" y="18" width="40" height="80" fill="#f5f1e4"/>
+    <rect x="64" y="18" width="40" height="80" fill="#f9f5ea"/>
+
+    <path d="M22 98 C35 92 46 92 64 98 L64 104 L22 104 Z" fill="#d6c4a5" opacity="0.85"/>
+    <path d="M64 100 C75 92 91 91 106 99 L106 104 L64 104 Z" fill="#d8c7aa" opacity="0.8"/>
+
+    <g fill="none" stroke="#c8b38e" stroke-width="1.1" stroke-linecap="round" opacity="0.95">
+      <path d="M72 96 a6 6 0 0 1 12 0"/>
+      <path d="M68 100 a8 8 0 0 1 16 0"/>
+      <path d="M64 104 a10 10 0 0 1 20 0"/>
+      <path d="M84 96 a6 6 0 0 1 12 0"/>
+      <path d="M80 100 a8 8 0 0 1 16 0"/>
+      <path d="M76 104 a10 10 0 0 1 20 0"/>
+      <path d="M96 96 a6 6 0 0 1 12 0"/>
+      <path d="M92 100 a8 8 0 0 1 16 0"/>
+      <path d="M88 104 a10 10 0 0 1 20 0"/>
+    </g>
+
+    <g fill="none" stroke="#aa8450" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M38 96 C37 88 41 79 46 74 C49 70 50 66 49 63"/>
+      <path d="M42 94 C43 88 46 82 51 78"/>
+      <path d="M37 86 C34 83 35 80 39 79 C42 78 45 79 47 81"/>
+      <path d="M43 82 C41 79 43 76 47 76 C51 76 53 79 52 82"/>
+      <path d="M48 88 C47 85 49 82 53 82 C57 82 59 85 58 88"/>
+      <path d="M34 91 C31 89 32 86 35 85 C38 84 41 85 43 87"/>
+    </g>
+
+    <g fill="none" stroke="#d7ccb5" stroke-width="2" stroke-linecap="round" opacity="0.9">
+      <path d="M86 45 h13"/>
+      <path d="M82 49 h9"/>
+      <path d="M88 58 h14"/>
+      <path d="M82 62 h11"/>
+    </g>
+  </g>
+
+  <line x1="64" y1="18" x2="64" y2="98" stroke="#142e50" stroke-width="2.2"/>
+  <circle cx="57" cy="58" r="2.6" fill="#112b4c"/>
+  <circle cx="71" cy="58" r="2.6" fill="#112b4c"/>
+  <circle cx="57" cy="58" r="1.5" fill="#f5f0e4" opacity="0.9"/>
+  <circle cx="71" cy="58" r="1.5" fill="#f5f0e4" opacity="0.9"/>
+
+  <circle cx="64" cy="58" r="39" fill="none" stroke="url(#ring)" stroke-width="3"/>
+  <path d="M29 39 C27 31 33 25 38 22 C24 29 18 45 20 59 C21 72 29 83 39 91" fill="none" stroke="#163257" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M99 89 C104 84 108 77 108 68 C109 75 107 84 103 91 C98 97 90 101 82 102" fill="none" stroke="#163257" stroke-width="2.8" stroke-linecap="round" opacity="0.92"/>
+</svg>
